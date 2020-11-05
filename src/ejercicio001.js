@@ -31,8 +31,7 @@ db.inventory.insertOne({item: "sketch pad", qty: 95, size: { h: 22.85, w: 30.5, 
  /*
  CAMBIAR LA INFORMACÍON INICIAL
  */
- db.inventory.insertOne({ item: "ebook", qty: 10, size: { h: 8, w: 10, uom: "cm" }, status: "C" }
-);
+ db.inventory.insertOne({ item: "ebook", qty: 10, size: { h: 8, w: 10, uom: "cm" }, status: "C" });
  
 /*
 BORRAR INFORMACIÓN

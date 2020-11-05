@@ -40,6 +40,4 @@ db.inventory.find({qty: {$ne: 100}}).pretty()
 /*
  $and implícito
 */
-db.inventory.find( { $and: [ { qly: { $gt: 50 } }, {$lt: 30 } ] } )
-
-db.inventory.find( {$and: [{ $or: [ { qty: { $lt : 10 } }, { qty : { $gt: 50 } } ] },{ $or: [ { status: "A" }] }]} )
+db.inventory.find( {$and: [{ $or: [ { qty: { $lt : 10 } }, { qty : { $gt: 50 } } ] },{ $or: [ { status: "A" }] }]} );
