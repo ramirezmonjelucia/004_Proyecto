@@ -1,6 +1,6 @@
 # Proyecto MONGODB
 
-_Tenemos una colección del inventario de la base de datos de una pepelería_
+_Tenemos una colección del inventario de la base de datos de una papelería_
 
 ## ARCHIVOS FIND 🚀
 
